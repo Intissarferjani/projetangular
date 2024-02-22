@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create an Account!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body style="display: flex; justify-content:center ; align-items: center;height: 100vh;overflow: hidden;">
+    <div class="container">
+        <form  (ngSubmit)="saveUser()" class="box">
+            <h4>Create an Account</h4>
+            <h5>Fill out the form to register.</h5>
+            <div class="form-group">
+                <input type="text" class="form-control" id="exampleFirstName" placeholder="First Name" formControlName="firstname">
+            </div>
+            <div class="form-group">
+                <input type="text" class="form-control" id="exampleLastName" placeholder="Last Name" formControlName="lastname">
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="exampleInputEmail" placeholder="Email Address" formControlName="email">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="exampleInputPassword" placeholder="Password" formControlName="password">
+            </div>
+           
+            <button type="submit" class="btn1">Register Account</button>
+            <br>
+            <p class="message">Already have an account? <a routerLink="/login">Login!</a></p>
+        </form>
+    </div>
+</body>
+</html>

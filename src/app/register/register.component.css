@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400");
+
+    body,
+    html {
+      font-family: "Source Sans Pro", sans-serif;
+      background: #ffffff;
+      padding: 0;
+      margin: 0;
+    }
+
+    .container {
+      text-align: center;
+      background: #f5f2f2;
+      border-radius: 9px;
+      border-top: 2px solid #ca1515;
+      border-bottom: 2px solid #ca1515;
+      width: 400px;
+      height: 600px;
+    }
+
+    .box h4 {
+      font-family: "Montserrat", sans-serif;
+      color: black;
+      font-size: 20px;
+      margin-top: 60px;
+    }
+
+    .box h4 span {
+      color: #dfdeee;
+      font-weight: lighter;
+    }
+
+    .box h5 {
+      font-family: "Source Sans Pro", sans-serif;
+      font-size: 13px;
+      color: #a1a4ad;
+      letter-spacing: 1.5px;
+      margin-top: -15px;
+      margin-bottom: 60px;
+    }
+
+    .box input[type="text"],
+    .box input[type="password"],
+    .box input[type="email"] {
+      display: block;
+      margin: 20px auto;
+      background-color: #ffffff;
+      border: 0;
+      border-radius: 5px;
+      padding: 14px 10px;
+      width: 320px;
+      outline: 0;
+      color: black;
+      -webkit-transition: all 0.2s ease-out;
+      -moz-transition: all 0.2s ease-out;
+      -ms-transition: all 0.2s ease-out;
+      -o-transition: all 0.2s ease-out;
+      transition: all 0.2s ease-out;
+    }
+
+    ::-webkit-input-placeholder {
+      color: #565f79;
+    }
+
+    .box input[type="text"]:focus,
+    .box input[type="password"]:focus {
+      border: 1px solid #ca1515;
+    }
+
+    a {
+      color: #ca1515;
+      text-decoration: none;
+    }
+
+    .btn1 {
+      border: 0;
+      background: #ffffff;
+      color: #54535b;
+      border-radius: 7px;
+      width: 340px;
+      height: 49px;
+      font-size: 16px;
+      transition: 0.3s;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+
+    .btn1:hover {
+      background: rgb(226, 189, 189);
+    }
+
+    .forgetpass {
+      position: relative;
+      float: right;
+      right: 28px;
+    }
